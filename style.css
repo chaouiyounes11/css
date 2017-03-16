@@ -10,7 +10,7 @@ main {
 /********** Titres **********/
 
 h1, h2 {
-  font-family: arial, sans-serif;
+  font-family: palanquin dark, sans-serif;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
 
 p {
   display: inline-block;
-  font-family: Times, serif;
+  font-family: amita, serif;
   text-align: justify;
   width: 20%;
   padding: 10px;

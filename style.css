@@ -2,22 +2,56 @@ body {
   text-align: center;
 }
 
-p {
-  width: 75%;
-  margin: 80px auto;
-  border: 1px solid lightgrey;
-  padding: 10px;
-  text-align: justify;
+main {
+  width: 80%;
+  margin: auto;
 }
 
-h1, p {
-  font-family: arial, serif;
-}
+/********** Titres **********/
 
-span {
-font: italic lighter 1.5em Times, serif;
-      }
+h1, h2 {
+  font-family: arial, sans-serif;
+}
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
+}
+
+h2 {
+  width: 75%;
+  color: #2c446b;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-left: 75px;
+}
+
+/********** Paragraphes **********/
+
+p {
+  display: inline-block;
+  font-family: Times, serif;
+  text-align: justify;
+  width: 20%;
+  padding: 10px;
+  margin-top: 0;
+}
+
+/********** Eléments des paragraphes **********/
+
+span.citation{
+  font-style: italic;
+  font-weight: lighter;
+  color: grey;
+}
+
+span.important{
+  display: inline-block;
+  color: #2c446b;
+  font-weight: bolder;
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }

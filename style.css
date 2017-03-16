@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+p {
+  width: 75%;
+  margin: 80px auto;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  text-align: justify;
+}
+
+h1, p {
+  font-family: arial, serif;
+}
+
+span {
+font: italic lighter 1.5em Times, serif;
+      }
+
+h1 {
+  font-size: 3em;
+}
